@@ -1,0 +1,73 @@
+
+
+body.z{
+    background: url(https://www.oriane.info/sites/default/files/2017-12/dipl%C3%B4mes%20%C2%A9leolintang.jpg);
+    
+}
+   img{
+    max-width: 10rem;
+    
+
+  }
+  section.z{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .4);
+      
+  }
+ li a{
+    
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px;
+    perspective: 500px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+ }
+
+ nav ul li{
+    list-style: none; 
+    display: inline-block;
+    
+}
+p{
+    position: absolute;
+    max-width: 15%;
+    text-align: center;
+    color: #fff;
+}
+div a img{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    z-index: 9999999999;
+    border-radius: 2rem;
+    position: absolute;
+    max-width: 4rem;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+div a img:hover{
+    transform: scale(1.10);
+    transition: .6s;
+}
